@@ -1,0 +1,25 @@
+camera:
+  width: 1024
+  height: 768
+  fx: 800.0
+  fy: 800.0
+  cx: 512.0
+  cy: 384.0
+  # Distortion coefficients (OpenCV)
+  k1: 0.0
+  k2: 0.0
+  p1: 0.0
+  p2: 0.0
+  k3: 0.0
+
+renderer:
+  # Sphere radius for pose generation (distance from center of object)
+  radius: 3.0
+  # Number of novel views to generate
+  num_frames: 10
+  # Center of the object (optional, defaults to mean of gaussians if not set)
+  # look_at: [0.0, 0.0, 0.0]
+  # Enable depth rendering (two-pass: RGB + depth)
+  output_depth: true
+  # Depth output format: npy, exr, or pfm
+  depth_format: npy
