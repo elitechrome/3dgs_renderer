@@ -1,0 +1,7 @@
+numpy
+scipy
+plyfile
+pyyaml
+opencv-python
+torch
+# diff-gaussian-rasterization # Install manually or via pip if available

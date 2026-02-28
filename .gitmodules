@@ -1,0 +1,3 @@
+[submodule "vk_gaussian_splatting"]
+	path = vk_gaussian_splatting
+	url = https://github.com/elitechrome/vk_gaussian_splatting

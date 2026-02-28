@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+
+# Build artifacts & SDK
+1.4.321.0/
+glslang-master-linux-Release.zip
+
+# Renderer output
+output/
+log_.txt
