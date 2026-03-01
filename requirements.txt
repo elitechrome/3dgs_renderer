@@ -3,5 +3,6 @@ scipy
 plyfile
 pyyaml
 opencv-python
-torch
+viser>=1.0
+imageio
 # diff-gaussian-rasterization # Install manually or via pip if available
